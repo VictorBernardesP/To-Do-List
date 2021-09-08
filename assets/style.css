@@ -12,11 +12,11 @@ body {
 .logo {
     padding-top: 210px;
     width: 150px;
-    lenght:75px;
+    lenght: 75px;
 }
 
 .todo-list {
-    background-color: #887BB0;
+    background-color: #887bb0;
     font-family: "Space Mono", monospace;
     padding: 1rem;
     min-width: 400px;
@@ -24,10 +24,10 @@ body {
 }
 
 .title {
-    border-bottom: 1px solid #FFF4BD;
+    border-bottom: 1px solid #fff4bd;
     font-size: 1.5rem;
     font-family: "BioRhyme", serif;
-    color: #85D2D0;
+    color: #85d2d0;
 }
 
 .form {
@@ -45,20 +45,20 @@ body {
 
 .form-input {
     outline: none;
-    background-color: #F4B9B8;
-    border-color: #FFF4BD;
+    background-color: #f4b9b8;
+    border-color: #fff4bd;
 }
 
 .form-button {
     border: 1px;
-    background: #FFF4BD;
+    background: #fff4bd;
     text-transform: uppercase;
     cursor: pointer;
     margin-left: 0.25rem;
 }
 
 .form-button:hover {
-    color: #85D2D0;
+    color: #85d2d0;
 }
 
 .list {
@@ -69,7 +69,7 @@ body {
 
 .task {
     background-color: rgba(255, 255, 255, 0.1);
-    color: #F6F1D1;
+    color: #f6f1d1;
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5rem;
@@ -78,7 +78,7 @@ body {
 
 .check-button,
 .delete-button {
-    background-color: #ECFDF1;
+    background-color: #ecfdf1;
     border: none;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     outline: none;
@@ -86,9 +86,22 @@ body {
     cursor: pointer;
 }
 
+.check-button {
+    margin-left: 100px;
+}
+
+.delete-button {
+    margin-left: 15px;
+}
+
+.check-button:hover,
+.delete-button:hover {
+    background-color: #fff4bd;
+}
+
 .task.done .check-button {
-    background-color: #FFF4BD;
-    color: #F4B9B8;
+    background-color: #fff4bd;
+    color: #f4b9b8;
 }
 .content {
     margin: 0;
